@@ -1,0 +1,25 @@
+{
+  "name": "tampabaymap",
+  "version": "0.0.1",
+  "description": "An Instagram app that will listen for the hashtag tbtrash and collect content from that hashtag",
+  "main": "server/start.js",
+  "scripts": {
+    "test": "node server/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metanomy/tampabaymap.git"
+  },
+  "author": "https://github.com/maxrbaldwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metanomy/tampabaymap/issues"
+  },
+  "homepage": "https://github.com/metanomy/tampabaymap#readme",
+  "dependencies": {
+    "bluebird": "^2.10.1",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "request": "^2.64.0"
+  }
+}
